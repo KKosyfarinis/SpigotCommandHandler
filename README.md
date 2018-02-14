@@ -35,7 +35,7 @@ All commands that the are executed, automatically find the correct alias, and th
 After you have done those above, all you have to do is extend CommandInfo, and you are good to go! 
 
 ```java
-public class Commandcommandhandler extends CommandInfo {
+public class Commandheal extends CommandInfo {
 
 	void Run() {
 		player.setHealth(20.0);
